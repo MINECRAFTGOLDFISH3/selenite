@@ -1,10 +1,22 @@
 {
   "name": "Bigfoot Games",
+  "description": "Bigfoot Games",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "build": "yarn",
+    "start": "yarn run"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MINECRAFTGOLDFISH3/selenite.git"
+  },
+  "keywords": [],
+  "author": "MINECRAFTGOLDFISH3",
+  "bugs": {
+    "url": "https://github.com/MINECRAFTGOLDFISH3/issues"
+  },
+    "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "homepage": "https://github.com/MINECRAFTGOLDFISH3/selenite"
 }
